@@ -34,22 +34,22 @@ async function initShader() {
 
 function setupKeyboardEvents() {
     document.addEventListener('keydown', (event) => {
-        if (event.key == 'ArrowUp') {
+        if (event.key === 'ArrowUp') {
             if (!(Math.abs(centery - 0.9) < 0.001)) {
                 centery = centery + 0.01;
             }
         }
-        else if (event.key == 'ArrowDown') {
+        else if (event.key === 'ArrowDown') {
             if (!(Math.abs(centery + 0.9) < 0.001)) {
                 centery = centery - 0.01;
             }
         }
-        else if (event.key == 'ArrowLeft') {
+        else if (event.key === 'ArrowLeft') {
             if (!(Math.abs(centerx + 0.9) < 0.001)) {
                 centerx = centerx - 0.01;
             }
         }
-        else if (event.key == 'ArrowRight') {
+        else if (event.key === 'ArrowRight') {
             if (!(Math.abs(centerx - 0.9) < 0.001)) {
                 centerx = centerx + 0.01;
             }
