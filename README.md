@@ -6,3 +6,4 @@
 5. https://2019147519.github.io/hw05_2019147519/homework05.html
 6. https://2019147519.github.io/hw06_2019147519/homework06.html
 7. https://2019147519.github.io/hw07_2019147519/homework07.html
+8. https://2019147519.github.io/hw08_2019147519/homework08.html
